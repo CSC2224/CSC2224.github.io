@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="CSC2224 Course Website" />
+	<meta name="keywords" content="CSC2224, Parallel Computer Architecture" />
+	<meta name="author" content="Gennady Pekhimenko, Hossein Farrokhbakht" />
+	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+	<script type="text/javascript" async
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+	</script>
+	<link rel="icon" href="./images/icon.png">
+	<title>CSC2224 Course Website</title>
+</head>
+
+<body class="light blue smaller freestyle01">
+<div id="layout">
+ 
+	<div class="row smaller">
+		<div class="col c5 smaller">
+			<h1><a href="index.html">CSC2224</a></h1>
+		</div>
+		<div class="col c7 alignright">
+			<p class="slogan">Parallel Computer Architecture and Programming, Fall 2020</p>
+		</div>
+	</div>
+ 
+	<div class="row">
+		<div class="col c2 aligncenter">
+			<ul class="menu">
+				<li><a href="index.html">   Announcements  </a></li>
+				<li><a href="info.html">    Course Info    </a></li>
+				<li><a href="content.html"> Course Contents</a></li>
+				<li><a href="reviews.html"> Paper Reviews  </a></li>
+				<li><a href="projects.html">Projects       </a></li>
+			</ul>
+		</div>
+ 
+		<div class="col c10">
+			<h3>General Course Information</h3>
+		
+			<table style="width: 100%">
+				<tr><td><strong>        Instructor:&nbsp;</strong></td><td>Prof. Gennady Pekhimenko</td></tr>
+				<!-- <tr><td><strong>Teaching Assistant:&nbsp;</strong></td><td>      Bojian Zheng</td></tr> -->
+				<tr><td><strong>  Discussion Board:&nbsp;</strong></td><td><a href=" https://piazza.com/class/ken2hxl981f27u">[Piazza]</a></td></tr>
+				<tr><td><strong>          Syllabus:&nbsp;</strong></td><td><a href="./docs/Syllabus.pdf">[PDF]</a></td></tr>
+				<!-- <tr><td><strong>         Gradebook:&nbsp;</strong></td><td><a href="https://docs.google.com/spreadsheets/d/1VuKn-PfCcoN1vzNQmHypGeOB5dNEMs6MIcyrfCjPJAE/edit#gid=0">[Google Spreadsheet]</a></td></tr> -->
+			</table>
+			
+			<p></p>
+		
+			<h3>Course Description</h3>
+			<p class="alignjustify">
+				The goal of this course is to build a strong understanding of the fundamentals of the architecture 
+				of parallel computers and efficient programming for them.
+				We will examine how architectures are designed to exploit and extract different types of parallelism. 
+				The focus will be on fundamentals, tradeoffs in parallel architecture design, and cutting-edge research. 
+				Architectures studied may include parallel microprocessors, GPUs and FPGAs.
+			</p>
+		
+			<h3>Prerequisites</h3>
+			<p class="alignjustify">
+				<b>This course is not intended to be your first computer architecture course</b>. 
+				It is geared toward students who have already had such a course (or some equivalent) as undergraduates. 
+				If you have never taken a computer architecture course before (or at least a Computer Organization class), 
+				it is still possible to take this course provided that you are willing to spend some additional time catching up on your own. 
+				It will also be helpful if you have some familiarity with the features of modern processor architectures 
+				(e.g., the memory hierarchy, pipelining, SIMT, and vector instructions).
+				If you feel uncertain about whether you are adequately prepared to take this class, please discuss this with the instructor.
+			</p>
+
+			<h3>Course Work and Grading</h3>
+		
+			<table border="1" width="100%">
+				<tr>
+					<td style="padding: 5px" width="20%">Research Project</td><td style="padding: 5px" width="5%">50%</td>
+					<td style="padding: 5px" class="alignjustify">
+						A major focus of this course is the project. 
+						We prefer that <b>you work in groups of two on the project</b>, 
+						although a group of up to three people may be permitted depending on the scale of the project
+						(ask the instructor for permission before forming a group of three). 
+						The project is intended to be a scaled-down version of a real research project. 
+						<b>The project must involve an experimental component</b>, i.e. it is not simply a paper and pencil exercise.
+						<!-- <b>You will have time until Oct. 2 to come up with your own research topic and Dec. 4 to work on the project</b>.  -->
+						You will present your findings in a written report and also during a poster/presentation session in the last day of class. 
+						Start thinking about potential project ideas soon!
+					</td>
+				</tr>	
+				<tr>
+					<td style="padding: 5px">Paper Reviews</td><td style="padding: 5px">20%</td>
+					<td style="padding: 5px" class="alignjustify">
+						The intent of the paper reviews is to familiarize you with the process of reviewing manuscripts. 
+						For those papers that you are not presenting yourself, you will assume the role of conference reviewer,
+						and write <b>a short (3-4 paragraph) critical review</b> of the paper. 
+						Briefly <b>summarize</b> the paper in the first paragraph. 
+						In the latter paragraphs, provide <b>strengths and weaknesses</b> of the paper 
+						(i.e., what you like and dislike about the paper in terms of its key ideas), 
+						and <b>most importantly, your critical thoughts on how to potentially improve the work</b>.
+					</td>
+				</tr>
+				<tr>
+					<td style="padding: 5px">Paper Presentation</td><td style="padding: 5px">20%</td>
+					<td style="padding: 5px" class="alignjustify">
+						Every group will present \(N\) papers <b>related to their project topic</b> (where \(N\) is the group size).
+						The intent is to teach students to read, analyze, summarize, and properly present the state-of-the-art 
+						research work in their area of interest. 
+						The length of the presentation should be around \(15\times N\) minutes.
+						The presentation schedule will be posted on the course website after the deadline of project proposal.
+					</td>
+				</tr>
+				<tr>
+					<td style="padding: 5px">Class Participation</td><td style="padding: 5px">10%</td>
+					<td style="padding: 5px" class="alignjustify">
+						In general, we would like everyone to do their part to make this an enjoyable interactive experience (one-way communication is no fun).
+						Hence in addition to attending class, we would like you to actively participate by asking questions, joining in our discussions, etc. 
+						Some classes are set aside entirely for student-led in-class discussions on active areas of research and 
+						innovation in computer architecture and parallel programming. 
+						All students are expected to lead one of these discussions.
+					</td>
+				</tr>
+			</table>
+			<p></p>
+
+			<h3>Major Deadlines</h3>
+
+			<table border="1" width="100%">
+				<tr>
+					<tr><td style="padding: 5px" width="50%">Project Proposal   </td><td style="padding: 5px"><b>Oct.  1st</b></td></tr>
+					<tr><td style="padding: 5px">Progress Report    </td><td style="padding: 5px"><b>Nov.  5th</b></td></tr>
+					<tr><td style="padding: 5px">Poster Presentation</td><td style="padding: 5px"><b>Dec.  3rd</b></td></tr>
+					<tr><td style="padding: 5px">Final Report       </td><td style="padding: 5px"><b>Dec. 10th</b></td></tr>
+				</tr>	
+			</table>
+		</div>
+	</div>
+ 
+	<div id="footer" class="row">
+		<div class="col c12 aligncenter">
+			<p>
+				<a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a>.
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
